@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<head>
+    <title>Scenario</title>
+</head>
+<body>
+<header class="ba">
+    <a href="index.html" class="logo2">TimeO</a>
+    <div class="menuToggle2" onclick="toggleMenu2();"></div>
+    <ul class="navbar">
+        <li><a href="index.html" class="m2" onclick="toggleMenu2();">Accueil</a></li>
+        <li><a href="Guide.html" class="m2" onclick="toggleMenu2();">Guide</a></li>
+        <li><a href="scenario.html" class="m2" onclick="toggleMenu2();">Scenario</a></li>
+        <li><a href="nc.php" class="m2" onclick="toggleMenu2();">Nous contacter</a></li>
+        <li><a href="Ressources.html" class="m2" onclick="toggleMenu2();">Ressources</a></li>
+        <a href="https://cdn.discordapp.com/attachments/887598498151821353/983207895200055316/TimeOsetup.exe" class="Jouer" onclick="toggleMenu2();">Jouer</a>
+    </ul>
+</header>
+<script type="text/javascript">
+
+
+    function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+    }
+</script>
+      <div class="container-fluid scen" >
+          <div class="container">
+              <div class="row bas">
+                  <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6  ">
+                      <a href="/scenario.html"><img src="./images/scenario.jpg" class="calmos"></a>
+                  </article>
+                  <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <p>
+                          C’est un soir comme un autre dans la petite ville d’Annecy en Savoie, Timéo
+part se coucher. N’ayant pas sommeil, il décide alors de rejoindre ses parents
+qui regardaient un documentaire sur la Préhistoire, puis finit par s’endormir.
+Au réveil, le jeune Timéo est totalement désorienté. Il se retrouve sous un
+arbre, sans une once d’habitation et de route aux alentours. Paniqué, il court
+jusqu’à arriver devant une grotte. Pris d’une intuition soudaine, il rentre à
+l’intérieur jusqu’à ce qu’il se rende compte que l’obscurité était bien trop forte
+pour continuer son exploration. En revenant à l’entrée de la grotte il remarque
+des fresques murales. Il fait très vite le lien entre ce qui l’entoure et le documentaire qu’il avait regardé la veille. Pour lui, aucun doute, il s’est retrouvé bloqué dans la préhistoire.
+S’en suivra une suite de péripéties afin qu’il trouve un moyen de rentrer
+chez lui. Or, à la fin de son périple en préhistoire, Timéo ne remontera que
+d’une seul époque et comprend qu’il devra remonter les époques une par une,
+et donc à chaque fois se dépasser mentalement et physiquement pour ainsi
+espérer rentrer chez lui . . .</p>
+                  </article>
+
+              </div>
+          </div>
+      </div>
+</body>
+</html>
